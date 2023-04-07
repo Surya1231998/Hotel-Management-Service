@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/microservices
+    username: root
+    password: mysql123
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    
